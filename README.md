@@ -24,6 +24,24 @@ Mini ChatGPT++ is a hybrid chatbot built with **C++**, **Python (Flask)**, and *
 | Model      | `all-MiniLM-L6-v2` via `sentence-transformers` |
 
 
+## Folder Structure
+
+```
+MiniChatGPTpp/
+├── backend/
+│   ├── api.py               # Flask API & chatbot logic
+│   ├── semantic_match.py    # Semantic matcher (sentence-transformers)
+│   ├── trie.cpp             # C++ Trie logic
+│   └── trie.h               # Trie header file
+│
+├── frontend/                # React frontend (chat UI)
+│   └── ...
+│
+├── run.py                  # Main backend launcher
+├── requirements.txt        # Python dependencies
+└── README.md               # Project description 
+```
+
 
 ##  How to Run Locally
 
