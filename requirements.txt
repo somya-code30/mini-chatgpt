@@ -1,0 +1,7 @@
+flask
+transformers
+sentence-transformers
+speechrecognition
+Levenshtein
+numpy
+torch
